@@ -160,3 +160,13 @@ li {
 .about {
 	margin-top: -20px;
 }
+
+.resume {
+	padding: 5px;
+}
+
+.portfolio {
+	padding: 5px;
+	line-height: 185%;
+	margin-bottom: 15px; 
+}
