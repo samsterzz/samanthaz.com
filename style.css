@@ -35,6 +35,8 @@ body {
 	color: #000;
 	text-decoration: none;
 	letter-spacing: 3px;
+	padding-left: 1px;  
+	padding-right: 1px; 
 	background-color: rgba(255, 255, 255, 0.75);
 }
 
@@ -46,6 +48,7 @@ body {
 	font-size: 20px;
 	letter-spacing: 2px;
 	color: #7A7A7A;
+	padding: 1px;  
 	background-color: rgba(255, 255, 255, 0.75);
 }
 

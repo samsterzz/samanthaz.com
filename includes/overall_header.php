@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>Samantha Zhang :: <?php echo $page_title; ?></title>
-	<meta name="description" content="Samantha Zhang, fullstack developer and creative thinker" />
+	<meta name="description" content="Samantha Zhang, fullstack developer and creative mind" />
 	<link href='https://fonts.googleapis.com/css?family=Raleway|Merriweather' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="normalize.css">
@@ -14,7 +14,7 @@
 		<div class="header-container twelve columns offset-by-one">
 			<a class="header-name" href="/">Samantha Zhang</a>
 			<div class="header-description">
-			fullstack developer and creative thinker
+			fullstack developer and creative mind
 			</div>
 		</div>
 	</div>

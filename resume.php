@@ -3,12 +3,11 @@ $page_title = 'Resume';
 require_once 'includes/overall_header.php';
 ?>
 				<div class="resume">
-				<p><a href="Samantha_Zhang_Resume.pdf" target="_blank">PDF version</a></p>
+				<p><a href="Samantha Zhang Resume.pdf" target="_blank">PDF version</a></p>
 				LinkedIn: <a href="https://www.linkedin.com/in/zhangsamantha/">linkedin.com/in/zhangsamantha</a>
 				<br>GitHub: <a href="https://github.com/samsterzz">github.com/samsterzz</a>
 				<h1>Technical Skills</h1>
-				JavaScript (ES6/ES5), Node.js, Express.js, React/Redux/React-Redux, Axios/AJAX, SQL/PostgreSQL,
-				Sequelize, Socket.io, Ruby, HTML5, CSS, Adobe Photoshop, Adobe InDesign, Git, Mocha/Chai, WordPress
+				JavaScript (ES6/ES7), Node.js, Express.js, React/React-Redux, Axios/AJAX, SQL/PostgreSQL, Sequelize, Socket.IO, HTML5, CSS3, SASS, Bootstrap, jQuery, Ruby, Adobe Photoshop, Git, Mocha/Chai, WordPress
 				<h1>Projects</h1>
 				<h2>Coquill | Developer/Designer</h2>
 				<a href="https://coquill-e559a.firebaseapp.com/">coquill-e559a.firebaseapp.com</a>
