@@ -7,7 +7,7 @@ require_once 'includes/overall_header.php';
 				LinkedIn: <a href="https://www.linkedin.com/in/zhangsamantha/">linkedin.com/in/zhangsamantha</a>
 				<br>GitHub: <a href="https://github.com/samsterzz">github.com/samsterzz</a>
 				<h1>Technical Skills</h1>
-				JavaScript (ES6/ES7), Node.js, Express.js, React/React-Redux, Axios/AJAX, SQL/PostgreSQL, Sequelize, Socket.IO, HTML5, CSS3, SASS, Bootstrap, jQuery, Ruby, Adobe Photoshop, Git, Mocha/Chai, WordPress
+				JavaScript (ES5/ES6), Node.js, Express.js, React/React-Redux, Axios/AJAX, SQL/PostgreSQL, Sequelize, Socket.IO, HTML5, CSS3, SASS, Bootstrap, jQuery, Ruby, Adobe Photoshop, Git, Mocha/Chai, WordPress
 				<h1>Projects</h1>
 				<h2>Coquill | Developer/Designer</h2>
 				<a href="https://coquill-e559a.firebaseapp.com/">coquill-e559a.firebaseapp.com</a>
@@ -15,7 +15,7 @@ require_once 'includes/overall_header.php';
 					<li>A web app for collaborative screenwriting implemented with Firebase’s real-time database</li>
 					<li>Worked on rendering real-time changes to the screenplay and storing the screenplay structure in the Redux store via Immutable.js</li>
 				</ul>
-				<h2>Borg Pet Co | Developer</h2>
+				<h2>Borg Pet Co | Developer/Designer</h2>
 				<a href="http://borgpetco.herokuapp.com/">borgpetco.herokuapp.com</a>
 				<ul class="resume-bullets">
 					<li>An ecommerce site that “sells” robot pets, with full shopping cart functionality</li>
