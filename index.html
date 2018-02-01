@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>portfolio Website Template | Home :: W3layouts</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='//fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+		<meta charset="UTF-8">
+
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<!--start-wrap-->
+		<!--start-header-->
+	<div class="header">
+		<div class="wrap">
+			<!--start-logo-->
+			<div class="logo">
+				<a href="#">samantha zhang</a>
+			</div>
+			<!--End-logo-->
+			<!--start-top-nav-->
+			<div class="top-nav">
+				<ul>
+					<li class="text"><a href="#me" class="scroll">Me</a></li>
+					<li class="text"><a href="#skills" class="scroll">Skills</a></li>
+					<li class="text"><a href="#portfolio" class="scroll">Portfolio</a></li>
+					<li class="text"><a href="#contact" class="scroll">Contact</a></li>
+				</ul>
+			</div>
+			<div class="clear"> </div>
+			<!--End-top-nav-->
+	     </div>
+	</div>
+		<!--End-wrap-->
+	<div class="content">
+		<div class="grid1" id="me">
+			<a href="#"><img src="images/sam_circle2.png" title="name" height="200" width="200" /></a>
+			<h3>Hi, I'm Sam.</h3>
+			<p>I'm a fullstack developer and recent grad of the Grace Hopper Program at Fullstack Academy, a competitive coding bootcamp based in NYC.</p>
+			<a class="button" href="files/Samantha Zhang Resume.pdf" target="_blank">Download Resume</a>
+		</div>
+		<div class="grid2" id="skills">
+			<h3>Skill set</h3>
+			<p></p>
+			<ul>
+				<li>
+					<img src="images/js.png" title="JavaScript" height="75" width="75" />
+					<span>JavaScript</span> 
+				</li>
+				<li>
+					<img src="images/ruby.png" title="Ruby" height="75" width="75" />
+					<span>Ruby</span> 
+				</li>
+				<li>
+					<img src="images/sql.png" title="SQL" height="75" width="75" />
+					<span>SQL</span> 
+				</li>
+				<li>
+					<img src="images/html.png" title="HTML" height="75" width="75" />
+					<span>HTML</span> 
+				</li>
+				<li>
+					<img src="images/css.png" title="CSS" height="75" width="75" />
+					<span>CSS</span> 
+				</li>
+			</ul>
+		</div>
+		<div class="grid3" id="portfolio">
+			<div class="grid3-header">
+				<h3>Portfolio</h3>
+				<p>Here's a collection of what I'm working on.</p>
+			</div>
+			<div class="grid3-content single-item">	
+				<div class="item">
+					<div class="grid3-left">
+						<h3>Coquill</h3>
+						<p>Project-Name Lorem Ipsum is simply dummy text of the printing and typesetting industry.when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+						<a class="button" href="#">Live Demo</a>
+						<a class="button" href="#">View Project</a>
+					</div>
+					<div class="grid3-right">
+						<a href="#"><img src="images/v1.png" title="project-name" /></a>
+					</div>
+					<div class="clear"> </div>
+				</div>
+				<div class="item">
+					<div class="grid3-left">
+						<h3>Coquill</h3>
+						<p>Project-Name Lorem Ipsum is simply dummy text of the printing and typesetting industry.when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+						<a class="button" href="#">Live Demo</a>
+						<a class="button" href="#">View Project</a>
+					</div>
+					<div class="grid3-right">
+						<a href="#"><img src="images/v1.png" title="project-name" /></a>
+					</div>
+					<div class="clear"> </div>
+				</div>	
+				<div class="item">
+					<div class="grid3-left">
+						<h3>Coquill</h3>
+						<p>Project-Name Lorem Ipsum is simply dummy text of the printing and typesetting industry.when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+						<a class="button" href="#">Live Demo</a>
+						<a class="button" href="#">View Project</a>
+					</div>
+					<div class="grid3-right">
+						<a href="#"><img src="images/v1.png" title="project-name" /></a>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+		</div>	
+		<div class="contact" id="contact">
+			<h3>Contact me</h3>
+			<p>Interested in getting in touch? Email me at samanthazhang9@gmail.com!</p>
+			<ul>
+				<li class="icon1"><a href="https://github.com/samsterzz"><img src="images/github-light.png" height="30" width="30" /></a></li>
+				<li class="icon2"><a href="https://www.linkedin.com/in/zhangsamantha/"><img src="images/linkedin-light.png" height="30" width="30" /></a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.single-item').slick({
+				dots: true
+			});
+		});
+	</script>
+	</body>
+</html>

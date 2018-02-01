@@ -1,2 +1,0 @@
-# samanthaz.com
-Personal website
