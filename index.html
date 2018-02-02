@@ -45,7 +45,7 @@
 		<!--End-wrap-->
 	<div class="content">
 		<div class="grid1" id="me">
-			<a href="#"><img src="images/sam_circle2.png" title="name" height="200" width="200" /></a>
+			<a href="#"><img src="images/sam_circle2.png" title="Sam" height="200" width="200" /></a>
 			<h3>Hi, I'm Sam.</h3>
 			<p>I'm a fullstack developer and recent grad of the Grace Hopper Program at Fullstack Academy, a competitive coding bootcamp based in NYC.</p>
 			<a class="button" href="files/Samantha Zhang Resume.pdf" target="_blank">Download Resume</a>
@@ -53,7 +53,50 @@
 		<div class="grid2" id="skills">
 			<h3>Skill set</h3>
 			<p></p>
-			<ul>
+			<div class="grid2-content"> 
+				<p class="align-left-left">JavaScript</p>
+				<p class="align-right-left">Advanced</p> 
+				<div class="clear"></div>
+				<div class="container left">
+					<div class="skills first"></div>
+				</div>
+
+				<p class="align-left-left">React/Redux</p>
+				<p class="align-right-left">Advanced</p> 
+				<div class="clear"></div>
+				<div class="container left">
+					<div class="skills second"></div>
+				</div>
+
+				<p class="align-left-left">SQL</p>
+				<p class="align-right-left">Intermediate</p> 
+				<div class="clear"></div>
+				<div class="container left">
+					<div class="skills third"></div>
+				</div>
+
+				<p class="align-left-right">Node.js/Express.js</p>
+				<p class="align-right-right">Advanced</p> 
+				<div class="clear"></div>
+				<div class="container right">
+					<div class="skills fourth"></div>
+				</div>
+
+				<p class="align-left-right">Ruby</p>
+				<p class="align-right-right">Intermediate</p> 
+				<div class="clear"></div>
+				<div class="container right">
+					<div class="skills fifth"></div>
+				</div>
+
+				<p class="align-left-right">HTML/CSS</p>
+				<p class="align-right-right">Advanced</p> 
+				<div class="clear"></div>
+				<div class="container right">
+					<div class="skills sixth"></div>
+				</div>
+			</div> 
+			<!-- <ul>
 				<li>
 					<img src="images/js.png" title="JavaScript" height="75" width="75" />
 					<span>JavaScript</span> 
@@ -70,11 +113,13 @@
 					<img src="images/html.png" title="HTML" height="75" width="75" />
 					<span>HTML</span> 
 				</li>
+			</ul>
+			<ul>
 				<li>
 					<img src="images/css.png" title="CSS" height="75" width="75" />
 					<span>CSS</span> 
 				</li>
-			</ul>
+			</ul> -->
 		</div>
 		<div class="grid3" id="portfolio">
 			<div class="grid3-header">
@@ -85,36 +130,44 @@
 				<div class="item">
 					<div class="grid3-left">
 						<h3>Coquill</h3>
-						<p>Project-Name Lorem Ipsum is simply dummy text of the printing and typesetting industry.when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-						<a class="button" href="#">Live Demo</a>
-						<a class="button" href="#">View Project</a>
+						<p>A tool that allows for collaborative screenwriting, with changes stored in Firebase's real-time database (to enable real-time syncing across all devices). If you're a screenwriter who would like a tool, such as Google Docs, but for screenplays, then this is the app for you.</p>
+						<a class="button" href="https://www.youtube.com/watch?v=yswXHBbU_KY&index=14&list=PLx0iOsdUOUmmVq5Lo-F13pNZjfvzTBNXp">Live Demo</a>
+						<a class="button" href="https://coquill-e559a.firebaseapp.com/">View Project</a>
+						<br />
+						<br />
+						<p><a href="https://github.com/queenplay-associates/coquill" class="github">(View on Github)</a></p>
 					</div>
 					<div class="grid3-right">
-						<a href="#"><img src="images/v1.png" title="project-name" /></a>
+						<img src="images/coquill.png" title="Coquill" />
 					</div>
 					<div class="clear"> </div>
 				</div>
 				<div class="item">
 					<div class="grid3-left">
-						<h3>Coquill</h3>
-						<p>Project-Name Lorem Ipsum is simply dummy text of the printing and typesetting industry.when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-						<a class="button" href="#">Live Demo</a>
-						<a class="button" href="#">View Project</a>
+						<h3>Borg Pet Co</h3>
+						<p>An ecommerce platform that enables a site for "selling" robot pets. If you're an admin, you can add products and edit the catalog, and if you're a user, you can log in and use the shopping cart&mdash;and even pay! (Payment enabled via Stripe.)</p>
+						<a class="button" href="http://borgpetco.herokuapp.com/">View Project</a>
+						<br />
+						<br />
+						<p><a href="https://github.com/cmccarthy15/GraceShopper" class="github">(View on Github)</a></p>
 					</div>
 					<div class="grid3-right">
-						<a href="#"><img src="images/v1.png" title="project-name" /></a>
+						<img src="images/borg.png" title="Borg Pet Co" />
 					</div>
 					<div class="clear"> </div>
 				</div>	
 				<div class="item">
 					<div class="grid3-left">
-						<h3>Coquill</h3>
-						<p>Project-Name Lorem Ipsum is simply dummy text of the printing and typesetting industry.when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-						<a class="button" href="#">Live Demo</a>
-						<a class="button" href="#">View Project</a>
+						<h3>Scrappy Notes</h3>
+						<p>Ever get tired of losing track of your screencaps? With Scrappy, you can upload and organize your screencaps by project&mdash;and never have to worry about searching through your files again.</p>
+						<p>Images are hosted in AWS's S3 for scalability.</p>
+						<a class="button" href="http://scrappy-notes.herokuapp.com/">View Project</a>
+						<br />
+						<br />
+						<p><a href="https://github.com/samsterzz/scrappy" class="github">(View on Github)</a></p>
 					</div>
 					<div class="grid3-right">
-						<a href="#"><img src="images/v1.png" title="project-name" /></a>
+						<img src="images/scrappy.png" title="Scrappy" />
 					</div>
 					<div class="clear"> </div>
 				</div>
